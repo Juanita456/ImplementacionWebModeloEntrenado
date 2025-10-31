@@ -1,0 +1,47 @@
+/* --- Estilos generales --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin: 0;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+}
+
+button {
+   background-color: #5C4033;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #218904;
+}
