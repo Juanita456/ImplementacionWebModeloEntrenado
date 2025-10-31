@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción de Salario</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Predicción de Salario</h1>
+    <form action="/predecir" method="post">
+        <label>Años de experiencia:</label>
+        <input type="number" step="0.1" name="experiencia" required>
+        <button type="submit">Predecir</button>
+    </form>
+    {% if resultado %}
+        <h2>{{ resultado }}</h2>
+    {% endif %}
+</body>
+</html>
